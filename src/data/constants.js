@@ -180,7 +180,6 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   // {
   //   id: 1,
@@ -280,28 +279,42 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
+    title: "Calories mobile app API",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Calories API is to help users  manage their calory intake and expenditure to support health, fitness or weight management goals.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://github.com/AnjanaTharanga24/my-images/blob/main/Screenshot%202024-11-15%20011524.png?raw=true",
     tags: [
+      "Java",
+      "Spring Boot",
+      "MySQL",
       "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+       "Postman"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/viduthranaweera2001/calories-api-main/tree/main/src/main/java/com/zerocode/calories_api/controller",
+    webapp: "",
+    member: [
+      {
+        name: "Anjana Tharanga",
+        img: "https://avatars.githubusercontent.com/u/129808844?s=400&u=3c83a83adb7416c393ffe7328426a6edb9eb08ec&v=4",
+        linkedin: "https://www.linkedin.com/in/anjana-tharanga-99709228b/",
+        github: "https://github.com/AnjanaTharanga24",
+      },
+      {
+        name: "Purna lakshitha",
+        img: "https://media.licdn.com/dms/image/v2/D5635AQEVv7HwduFU6g/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1721375932588?e=1732219200&v=beta&t=wAsfXaHMlukzel2OED0fVkK78q3a_RVW-g0YzarHSjc",
+        linkedin: "https://www.linkedin.com/in/purna-lakshitha-063714218/",
+        github: "https://github.com/purnalakshitha99",
+      },
+      {
+        name: "Dehani kavindya",
+        img: "https://media.licdn.com/dms/image/v2/D5635AQEgZ9VuMvmEjA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1724478815097?e=1732219200&v=beta&t=6nl8SjOuyH4G2gLde1Zm7uRzcePXHbZ_unyEwEYtFis",
+        linkedin: "https://www.linkedin.com/in/dehani-kavindya-6b8a42216/",
+        github: "https://github.com/DehaniPathirana",
+      },
+    ],
   },
   {
     id: 0,
