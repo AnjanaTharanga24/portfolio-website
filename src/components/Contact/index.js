@@ -128,25 +128,44 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   emailjs.sendForm('service_94k2uvu', 'template_ahghppc', 'TpjvSJCNdE_eS9IhM',
+  //   )
+  //     .then((result) => {
+  //       setOpen(true);
+  //       form.current.reset();
+  //     }, (error) => {
+  //       console.log(error.text);
+  //     });
+  // }
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-      .then((result) => {
-        setOpen(true);
+
+    emailjs
+      .sendForm('service_94k2uvu', 'template_ahghppc', form.current,'zlgmKAWenQ13m-ax_')
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          setOpen(true);
         form.current.reset();
-      }, (error) => {
-        console.log(error.text);
-      });
-  }
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
 
-
-
+  // emailjs.sendForm('service_94k2uvu', 'template_ahghppc', form.current, {
+  //   publicKey: 'TpjvSJCNdE_eS9IhM',
+  // })
   return (
     <Container>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={sendEmail}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
