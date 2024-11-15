@@ -347,7 +347,7 @@ export const projects = [
   {
     id: 0,
     title: "Fashion Cart ",
-    date: "Jul 2023 - Present",
+    date: "Jul 2024 - Present",
     description:
       "In this system, buyers can purchase fashion items, and sellers can list items for sale. All role-based functions are implemented.",
     image:
@@ -473,7 +473,7 @@ export const projects = [
   {
     id: 3,
     title: "Education Galaxy ",
-    date: "Dec 2021 - Apr 2022",
+    date: "Jun 2024 - Aug 2024",
     description:
       "In this system , students can create, update and delete their accounts. Also, Students can enroll in many courses.",
     image:
