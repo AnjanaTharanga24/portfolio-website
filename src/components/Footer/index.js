@@ -102,9 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>
-          &copy; 2023 Rishav Chanda. All rights reserved.
-        </Copyright>
+       
 
       </FooterWrapper>
     </FooterContainer>
